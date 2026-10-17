@@ -7,7 +7,7 @@ const themeLabel = themeButton.querySelector('.theme-label');
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 helloButton.addEventListener('click', () => {
-  status.textContent = 'Hello from GitHub Pages! ยินดีที่ได้รู้จัก 👋';
+  status.textContent = 'สวัสดีครับ! ยินดีที่ได้รู้จัก 👋 ลองแวะดูผลงานทั้งสองชิ้นด้านล่างได้เลย';
 });
 
 function setTheme(isDark) {

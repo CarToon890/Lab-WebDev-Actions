@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="เว็บไซต์แนะนำตัวสำหรับแลป GitHub Actions และ GitHub Pages" />
-    <title>สุรชัช ศาลาน้อย | Web Development Lab</title>
+    <meta name="description" content="สุรชัช ศาลาน้อย — ผลงาน Web Development และ Python CI/CD" />
+    <meta name="theme-color" content="#fff9ef" />
+    <title>สุรชัช ศาลาน้อย | Creative Dev Lab</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
@@ -12,19 +13,11 @@
     <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="#top" aria-label="กลับไปส่วนบนของหน้า">
-          <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
-          <span>WEB DEV LAB</span>
-        </a>
+        <a class="brand" href="#top" aria-label="กลับไปส่วนบนของหน้า"><span class="brand-mark" aria-hidden="true">S<span>✳</span></span><span class="brand-copy">SURACHAT<span> / DEV LAB</span></span></a>
         <nav class="site-nav" aria-label="เมนูหลัก">
-          <a href="#about">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
         </nav>
-        <button class="theme-toggle" id="themeToggle" type="button" aria-label="เปลี่ยนเป็นธีมมืด" aria-pressed="false">
-          <span class="theme-icon" aria-hidden="true">☾</span>
-          <span class="theme-label">ธีมมืด</span>
-        </button>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="เปลี่ยนเป็นธีมมืด" aria-pressed="false"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">ธีมมืด</span></button>
       </div>
     </header>
 
@@ -32,86 +25,56 @@
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="eyebrow-line"></span> GITHUB ACTIONS + GITHUB PAGES LAB</p>
-            <h1 id="hero-title">ยินดีต้อนรับครับ<br />ผมชื่อ <span class="highlight">สุรชัช ศาลาน้อย</span></h1>
-            <p class="hero-description">พื้นที่เล็ก ๆ สำหรับแนะนำตัวและแสดงสิ่งที่ได้เรียนรู้ด้าน Web Development ตั้งแต่การเขียนหน้าเว็บจนถึงการเผยแพร่แบบอัตโนมัติ</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#about">รู้จักกันเพิ่มเติม <span aria-hidden="true">↗</span></a>
-              <button class="button button-secondary" id="helloBtn" type="button">Say Hello <span aria-hidden="true">✦</span></button>
-            </div>
-            <p class="greeting" id="status" role="status" aria-live="polite">พร้อมเรียนรู้และลงมือสร้างสิ่งใหม่</p>
+            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> WEB DEVELOPMENT · PYTHON · CI/CD</p>
+            <h1 id="hero-title">สวัสดีครับ<br />ผมชื่อ <span class="name-highlight">สุรชัช<span class="sparkle" aria-hidden="true">✳</span></span><br /><span class="last-name">ศาลาน้อย</span></h1>
+            <p class="hero-description">พื้นที่รวบรวมสิ่งที่ผมกำลังเรียนรู้ ตั้งแต่การสร้างหน้าเว็บด้วย HTML, CSS และ JavaScript ไปจนถึงการตรวจโค้ดและเผยแพร่ด้วย GitHub Actions</p>
+            <div class="hero-actions"><a class="button button-primary" href="#projects">ดูผลงานของผม <span aria-hidden="true">↗</span></a><button class="button button-outline" id="helloBtn" type="button">Say Hello <span aria-hidden="true">✦</span></button></div>
+            <p class="greeting" id="status" role="status" aria-live="polite">ยินดีต้อนรับสู่พื้นที่ทดลองของผม</p>
+            <div class="hero-footnote"><span>สุรชัช ศาลาน้อย</span><span>นิสิตรหัส 67160378</span></div>
           </div>
           <div class="hero-art" aria-hidden="true">
-            <div class="art-orbit art-orbit-one"></div>
-            <div class="art-orbit art-orbit-two"></div>
-            <div class="code-window">
-              <div class="window-top"><span></span><span></span><span></span><small>hello-world.js</small></div>
-              <div class="code-lines">
-                <p><span class="line-num">01</span><span class="syntax-purple">const</span> student = {</p>
-                <p><span class="line-num">02</span>&nbsp; name: <span class="syntax-green">'สุรชัช'</span>,</p>
-                <p><span class="line-num">03</span>&nbsp; passion: <span class="syntax-green">'Web Dev'</span>,</p>
-                <p><span class="line-num">04</span>&nbsp; mindset: <span class="syntax-green">'Keep learning'</span></p>
-                <p><span class="line-num">05</span>};</p>
-                <p><span class="line-num">06</span></p>
-                <p><span class="line-num">07</span><span class="syntax-purple">console</span>.log(<span class="syntax-green">'Hello!'</span>);</p>
-              </div>
+            <div class="art-sun"></div><div class="art-dots"></div>
+            <div class="browser-card">
+              <div class="browser-top"><span class="browser-lights"><i></i><i></i><i></i></span><span>my-learning-path.dev</span><span>↗</span></div>
+              <div class="browser-body"><span class="art-label">LEARN / BUILD / SHARE</span><strong>ไอเดียเล็ก ๆ<br /><em>ต่อยอดได้ทุกวัน</em></strong><div class="art-card art-card-one"><span>01</span><b>WEB DESIGN</b><small>HTML · CSS · JS</small></div><div class="art-card art-card-two"><span>02</span><b>PYTHON CI/CD</b><small>TEST → DEPLOY</small></div><div class="art-star">✳</div></div>
             </div>
-            <div class="floating-tag tag-one">HTML · CSS · JS</div>
-            <div class="floating-tag tag-two">GitHub Pages ↗</div>
+            <div class="art-sticker sticker-top">MAKE IT<br />WORK ✦</div><div class="art-sticker sticker-bottom">2 PROJECTS / 1 JOURNEY</div>
           </div>
         </div>
       </section>
 
+      <section class="marquee" aria-label="เครื่องมือที่ใช้"><div class="container marquee-inner"><span>DESIGN</span><b>✳</b><span>CODE</span><b>✳</b><span>TEST</span><b>✳</b><span>DEPLOY</span><b>✳</b><span>LEARN</span></div></section>
+
       <section class="section about-section" id="about" aria-labelledby="about-title">
-        <div class="container section-grid">
-          <div class="section-heading">
-            <p class="section-kicker">01 / ABOUT ME</p>
-            <h2 id="about-title">รู้จักตัวตน<br />ของฉัน</h2>
-          </div>
-          <div class="section-content">
-            <p class="large-copy">ฉันเป็นนิสิตที่กำลังฝึกสร้างเว็บไซต์และเรียนรู้วิธีทำงานกับ Git และ GitHub</p>
-            <p>เว็บไซต์นี้เป็นผลงานในรายวิชา Web Development โดยใช้ HTML สร้างโครงหน้าเว็บ CSS จัดรูปแบบ และ JavaScript เพิ่มการโต้ตอบ เมื่อแก้ไขแล้ว push ขึ้น GitHub ระบบจะเผยแพร่หน้าเว็บผ่าน GitHub Pages</p>
-            <div class="info-grid">
-              <div class="info-item"><span>ชื่อ–นามสกุล</span><strong>สุรชัช ศาลาน้อย</strong></div>
-              <div class="info-item"><span>รหัสนิสิต</span><strong>67160378</strong></div>
-              <div class="info-item"><span>กำลังเรียนรู้</span><strong>Web Development</strong></div>
-              <div class="info-item"><span>โปรเจกต์</span><strong>GitHub Actions Lab</strong></div>
-            </div>
-          </div>
+        <div class="container about-grid">
+          <div><p class="section-kicker">01 / ABOUT ME</p><h2 id="about-title">เรียนรู้ด้วยการ<br /><span>ลงมือทำจริง</span></h2><div class="about-badge" aria-hidden="true">S<span>✳</span></div></div>
+          <div class="about-content"><p class="lead-copy">ผมเป็นนิสิตที่กำลังฝึกพัฒนาเว็บไซต์และทำความเข้าใจการทำงานของ Git และ GitHub</p><p>โปรเจกต์ในหน้านี้คือส่วนหนึ่งของการฝึก Web Development และ Python CI/CD โดยทดลองสร้างหน้าเว็บ เขียนโค้ด ทดสอบ และเผยแพร่ผลงานให้เปิดดูได้จริง</p><div class="fact-grid"><div><span>ชื่อ–นามสกุล</span><strong>สุรชัช ศาลาน้อย</strong></div><div><span>รหัสนิสิต</span><strong>67160378</strong></div><div><span>กำลังเรียนรู้</span><strong>Web Development</strong></div><div><span>เผยแพร่ด้วย</span><strong>GitHub Pages</strong></div></div></div>
         </div>
       </section>
 
       <section class="section skills-section" id="skills" aria-labelledby="skills-title">
-        <div class="container">
-          <div class="section-heading skills-heading">
-            <p class="section-kicker">02 / SKILLS</p>
-            <h2 id="skills-title">เครื่องมือที่กำลังฝึกใช้</h2>
-            <p>แต่ละเครื่องมือช่วยให้การสร้างเว็บตั้งแต่บนเครื่องจนถึงออนไลน์เป็นขั้นตอนที่ตรวจสอบได้</p>
-          </div>
+        <div class="container"><div class="section-intro"><div><p class="section-kicker">02 / SKILLS</p><h2 id="skills-title">เครื่องมือใน<br /><span>กล่องทดลอง</span></h2></div><p>ทักษะที่ใช้สร้างสองโปรเจกต์นี้ ตั้งแต่จัดวางเนื้อหา เพิ่มการโต้ตอบ ไปจนถึงตรวจสอบก่อนเผยแพร่</p></div>
           <div class="skills-grid">
-            <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon" aria-hidden="true">◇</span><h3>HTML</h3><p>วางโครงสร้างเนื้อหาและทำให้หน้าเว็บอ่านง่าย</p></article>
-            <article class="skill-card"><span class="skill-number">02</span><span class="skill-icon" aria-hidden="true">✳</span><h3>CSS</h3><p>จัดเลย์เอาต์ สี และการแสดงผลบนหลายขนาดหน้าจอ</p></article>
-            <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon" aria-hidden="true">{ }</span><h3>JavaScript</h3><p>เพิ่มปุ่มและพฤติกรรมที่ตอบสนองต่อผู้ใช้</p></article>
-            <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon" aria-hidden="true">↗</span><h3>GitHub Actions</h3><p>ช่วยเผยแพร่เว็บไซต์อัตโนมัติหลัง push โค้ด</p></article>
+            <article class="skill-card skill-yellow"><span class="skill-top"><span>01</span><span aria-hidden="true">◇</span></span><h3>HTML</h3><p>จัดโครงสร้างเนื้อหาให้ชัดเจนและเข้าถึงได้</p></article>
+            <article class="skill-card skill-coral"><span class="skill-top"><span>02</span><span aria-hidden="true">✳</span></span><h3>CSS</h3><p>สร้างภาพลักษณ์และเลย์เอาต์ที่ปรับตามหน้าจอ</p></article>
+            <article class="skill-card skill-mint"><span class="skill-top"><span>03</span><span aria-hidden="true">{ }</span></span><h3>JavaScript</h3><p>ทำให้หน้าเว็บตอบสนองเมื่อผู้ใช้กดปุ่ม</p></article>
+            <article class="skill-card skill-purple"><span class="skill-top"><span>04</span><span aria-hidden="true">↗</span></span><h3>GitHub Actions</h3><p>ตรวจงานและเผยแพร่เว็บไซต์ผ่าน workflow</p></article>
           </div>
         </div>
       </section>
 
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="container contact-panel">
-          <div>
-            <p class="section-kicker">03 / CONTACT</p>
-            <h2 id="contact-title">พูดคุยกันได้ที่นี่</h2>
-            <p>ติดตามผลงานและโปรเจกต์ที่กำลังเรียนรู้เพิ่มเติมผ่าน GitHub</p>
-          </div>
-          <div class="contact-actions">
-            <a class="button button-light" id="githubLink" href="https://github.com/CarToon890/Lab-WebDev-Actions" target="_blank" rel="noopener noreferrer">ดู Repository <span aria-hidden="true">↗</span></a>
-            <p id="contactNote">ดู Source Code และ GitHub Actions ของแลปนี้</p>
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container"><div class="section-intro projects-intro"><div><p class="section-kicker">03 / PROJECTS</p><h2 id="projects-title">จากโค้ดในเครื่อง<br /><span>สู่เว็บที่เปิดได้จริง</span></h2></div><p>สองโปรเจกต์ที่ใช้ฝึกสร้างเว็บและกระบวนการทำงานอัตโนมัติบน GitHub</p></div>
+          <div class="projects-grid">
+            <article class="project-card project-web"><div class="project-visual" aria-hidden="true"><span class="visual-browser"><i></i><i></i><i></i></span><span class="visual-window"><b>HELLO,<br />WEB!</b><span>✳</span></span></div><div class="project-content"><span class="project-index">PROJECT 01 / WEB DEVELOPMENT</span><h3>เว็บแนะนำตัว</h3><p>สร้างด้วย HTML, CSS และ JavaScript มีปุ่มทักทายและสลับธีม พร้อมเผยแพร่ผ่าน GitHub Pages</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://cartoon890.github.io/Lab-WebDev-Actions/" target="_blank" rel="noopener noreferrer">เปิดเว็บไซต์ ↗</a><a href="https://github.com/CarToon890/Lab-WebDev-Actions" target="_blank" rel="noopener noreferrer">ดูโค้ด ↗</a></div></div></article>
+            <article class="project-card project-python"><div class="project-visual" aria-hidden="true"><span class="visual-chart"><i></i><i></i><i></i><i></i><i></i></span><span class="visual-grade">A</span><span class="visual-caption">CSV → PYTHON → PAGES</span></div><div class="project-content"><span class="project-index">PROJECT 02 / PYTHON CI/CD</span><h3>รายงานผลคะแนน</h3><p>Python อ่านข้อมูลคะแนนตัวอย่างจาก CSV คำนวณเกรดและสร้างหน้าเว็บ หลังผ่าน Ruff และ pytest จึงเผยแพร่อัตโนมัติ</p><div class="project-tags"><span>Python</span><span>pytest</span><span>GitHub Actions</span></div><div class="project-links"><a href="https://cartoon890.github.io/hello-python/" target="_blank" rel="noopener noreferrer">เปิดเว็บไซต์ ↗</a><a href="https://github.com/CarToon890/hello-python" target="_blank" rel="noopener noreferrer">ดูโค้ด ↗</a></div></div></article>
           </div>
         </div>
       </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title"><div class="container"><div class="contact-panel"><div><p class="section-kicker">04 / CONTACT</p><h2 id="contact-title">ไปดูงานกันต่อ<br /><span>บน GitHub ↗</span></h2><p>รวมซอร์สโค้ดและขั้นตอนการทำงานของทั้งสองโปรเจกต์ไว้ที่บัญชี GitHub ของผม</p></div><div class="contact-action"><a class="button button-white" id="githubLink" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">เปิด GitHub Profile <span aria-hidden="true">↗</span></a><span>github.com/CarToon890</span></div><span class="contact-doodle" aria-hidden="true">✳</span></div></div></section>
     </main>
 
-    <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> สุรชัช ศาลาน้อย</span><span>Built with HTML, CSS & JavaScript</span></div></footer>
+    <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> สุรชัช ศาลาน้อย · 67160378</span><span>MADE TO LEARN, BUILT TO SHARE ✳</span></div></footer>
   </body>
 </html>
