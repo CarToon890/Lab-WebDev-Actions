@@ -23,8 +23,11 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v6
-      - name: Check website entry file
-        run: test -f index.html
+      - name: Check required website files
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload static website
