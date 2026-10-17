@@ -1,6 +1,6 @@
 # Web Development + GitHub Actions Lab
 
-เว็บไซต์แนะนำตัวของ **สุรชัช ศาลาน้อย (67160378)** สำหรับแลป Web Development
+เว็บไซต์แนะนำตัวของ **สุรชัช ศาลาน้อย (67160378)** สำหรับรายวิชา **89033167 Web Application Development**
 
 - เว็บไซต์: https://cartoon890.github.io/Lab-WebDev-Actions/
 - GitHub Actions: https://github.com/CarToon890/Lab-WebDev-Actions/actions
