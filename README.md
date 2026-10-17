@@ -4,26 +4,23 @@
 
 ## ปรับข้อมูลก่อนส่งงาน
 
-1. แก้ `[ใส่ชื่อ–นามสกุล]` และ `[ใส่รหัสนิสิต]` ใน `index.html`
-2. แก้ลิงก์ `#githubLink` ให้เป็น GitHub ของตนเอง และปรับข้อความติดต่อ
-3. ปรับเนื้อหา About Me และ Skills ให้ตรงกับตนเอง
-4. เปิด `index.html` ในเบราว์เซอร์ ตรวจปุ่ม **Say Hello**, ปุ่มสลับธีม และหน้าจอมือถือ
+1. ตรวจชื่อ–นามสกุลและรหัสนิสิตใน `index.html`
+2. ปรับเนื้อหา About Me และ Skills ให้ตรงกับตนเองหากต้องการ
+3. เปิด `index.html` ในเบราว์เซอร์ ตรวจปุ่ม **Say Hello**, ปุ่มสลับธีม และหน้าจอมือถือ
 
 ## นำขึ้น GitHub Pages
 
-1. สร้าง GitHub repository แบบ Public ชื่อ `webdev-actions-lab` โดยให้เป็น repository ว่าง โปรเจกต์ในเครื่องนี้เริ่ม Git และมี commit แรกแล้ว
-2. หลังแก้ข้อมูลส่วนตัวและตรวจเว็บ ให้ commit การแก้ไข แล้วเชื่อมกับ GitHub:
+1. ใช้ GitHub repository แบบ Public ที่ `https://github.com/CarToon890/Lab-WebDev-Actions` โปรเจกต์ในเครื่องนี้เริ่ม Git และมี commit แล้ว
+2. หลังตรวจเว็บ ให้เชื่อมกับ GitHub และ push:
 
    ```powershell
-   git add .
-   git commit -m "Personalize portfolio website"
-   git remote add origin https://github.com/YOUR_USERNAME/webdev-actions-lab.git
+   git remote add origin https://github.com/CarToon890/Lab-WebDev-Actions.git
    git push -u origin main
    ```
 
 3. เปิด **Settings → Pages → Build and deployment → Source** แล้วเลือก **GitHub Actions**
 4. ดูแท็บ **Actions** ให้ workflow `Deploy Static Website` สำเร็จ
-5. เปิด `https://YOUR_USERNAME.github.io/webdev-actions-lab/`
+5. เปิด `https://CarToon890.github.io/Lab-WebDev-Actions/`
 6. แก้หัวข้อใน `index.html` และสีปุ่มใน `style.css` แล้ว commit/push อีกครั้ง ตรวจว่าเว็บไซต์อัปเดต
 
 ถ้าสร้าง repository พร้อม README บน GitHub ไปแล้ว ให้ clone repository นั้นก่อน แล้วคัดลอกไฟล์เหล่านี้ลงในโฟลเดอร์ที่ clone มา เพื่อไม่ให้ประวัติ Git ขัดกัน
