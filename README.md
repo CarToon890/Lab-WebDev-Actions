@@ -11,14 +11,12 @@
 
 ## นำขึ้น GitHub Pages
 
-1. สร้าง GitHub repository แบบ Public ชื่อ `webdev-actions-lab` โดยให้เป็น repository ว่าง
-2. ในโฟลเดอร์นี้รันคำสั่ง:
+1. สร้าง GitHub repository แบบ Public ชื่อ `webdev-actions-lab` โดยให้เป็น repository ว่าง โปรเจกต์ในเครื่องนี้เริ่ม Git และมี commit แรกแล้ว
+2. หลังแก้ข้อมูลส่วนตัวและตรวจเว็บ ให้ commit การแก้ไข แล้วเชื่อมกับ GitHub:
 
    ```powershell
-   git init
-   git branch -M main
    git add .
-   git commit -m "Build portfolio website and Pages workflow"
+   git commit -m "Personalize portfolio website"
    git remote add origin https://github.com/YOUR_USERNAME/webdev-actions-lab.git
    git push -u origin main
    ```
