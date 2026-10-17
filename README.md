@@ -17,4 +17,4 @@
 - [Hello Python — Scoreboard](https://github.com/CarToon890/hello-python)
 - [เว็บไซต์รายงานคะแนนตัวอย่าง](https://cartoon890.github.io/hello-python/)
 
-คำตอบคำถามท้ายแลปอยู่ใน [answers.md](answers.md) ส่วนภาพหลักฐานอยู่ในโฟลเดอร์ `evidence` ของเครื่องที่ใช้ทำงาน
+คำตอบคำถามท้ายแลปอยู่ใน [answers.md](answers.md)
