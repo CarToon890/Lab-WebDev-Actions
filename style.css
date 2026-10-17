@@ -39,13 +39,13 @@ button { font: inherit; }
 .eyebrow { display: flex; align-items: center; gap: 10px; }
 .eyebrow-line { display: inline-block; width: 22px; height: 2px; background: currentColor; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { margin: 22px 0 24px; font-size: clamp(2.7rem, 5.3vw, 5.2rem); line-height: 1.25; letter-spacing: -.045em; }
+h1 { margin: 22px 0 24px; font-size: clamp(2.7rem, 4.2vw, 3.9rem); line-height: 1.25; letter-spacing: -.045em; }
 .highlight { color: var(--primary); }
 .hero-description { max-width: 540px; color: var(--muted); font-size: 1.08rem; line-height: 1.9; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 48px; padding: 10px 22px; border: 1px solid transparent; border-radius: 9px; cursor: pointer; font-size: .92rem; font-weight: 700; transition: transform .2s, background .2s, border-color .2s; }
 .button:hover { transform: translateY(-2px); }
-.button-primary { background: var(--primary); color: #fff; }
+.button-primary { background: linear-gradient(135deg, var(--primary), #7659e8); color: #fff; }
 .button-primary:hover { background: var(--primary-dark); }
 .button-secondary { border-color: var(--line); background: var(--surface); color: var(--text); }
 .button-secondary:hover { border-color: var(--primary); }
